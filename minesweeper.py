@@ -117,7 +117,7 @@ def main():
 	
 	while True:
 		try:
-			row, column = input("\nEnter Column and Row to Reveal: ").split(" ")
+			row, column = input("\nEnter Row and Column to Reveal: ").split(" ")
 			row = int(row); column = int(column)
 		except ValueError:
 			print("""\n
@@ -220,7 +220,7 @@ Rules:
 	a) the surrounding tiles are uncovered
 	b) a bomb is selected -- GAME OVER
 	
-*Note: Columns and Rows Range from 0 - 7
+*Note: Rows and Columns Range from 0 - 7
 
 """)
 
